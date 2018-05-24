@@ -435,4 +435,44 @@
         height: 693px;
         background-color: #fff;
     }
+
+    /* contacts.html/form */
+    .book-form {
+        background: #e3e5e8;
+        box-shadow: 0 0 20px 7px darkgrey;
+        width: 100%;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .book-form__name, .book-form__phone, .book-form__email, .book-form__menu {
+        width: 100%;
+        height: 55px;
+        margin-bottom: 40px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        border: none;
+        color: #151b28;
+        margin-left: 0;
+    }
+    .book-form__phone, .book-form__menu {
+        margin-left: 0;
+    }
+    .book-form__commet {
+        margin-left: 0;
+        width: 99%;
+        color: #151b28;
+    }
+    .book-form__dd {
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .form-flex>.book-form__yyyy {
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .book-form__NofP {
+        width: 100%;
+        margin-left: 0;
+    }
 }
