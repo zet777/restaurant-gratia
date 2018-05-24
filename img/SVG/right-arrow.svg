@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.62" height="110.41" viewBox="0 0 56.62 110.41">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-0.71 0)">
+      <rect width="56.62" height="110.42" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>right-arrow</title>
+  <g clip-path="url(#clip-path)">
+    <polyline class="right-arrow" points="0.71 109.71 55.21 55.21 0.71 0.71" fill="none" stroke="#1f2736" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

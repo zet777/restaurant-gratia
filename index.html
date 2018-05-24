@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/crimsonroman.css">
+    <link rel="stylesheet" href="fonts/montserrat.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/anim.css">
+    <title>Gratia</title>
+    <script src="js/jq1.11.3.js"></script>
+</head>
+
+<body>
+    <!-- Прелоадер -->
+    <div id="p_prldr">
+        <div class="contpre">
+            <span class="svg_anm"></span>
+        </div>
+    </div>
+    <script type="text/javascript">$(window).on('load', function () {
+        var $preloader = $('#p_prldr'),$svg_anm   = $preloader.find('.svg_anm');
+        $svg_anm.fadeOut();
+        $preloader.delay(500).fadeOut('slow');
+});</script>
+    <!-- /Прелоадер -->
+    <header class="header" id="header">
+        <div class="container animated fadeInDownBig ">
+            <nav>
+                <div class="header-logo"><a href="/" class="brand montserrat">Gratia</a></div>
+                <div class="main-menu montserrat">
+                    <div><a href="#">About</a></div>
+                    <div><a href="menu.html">Menu</a></div>
+                    <div><a href="#">Gallery</a></div>
+                    <div><a href="contacts.html">Contact</a></div>
+                </div>
+            </nav>
+            <div class="slider">
+                <div class="slider__left-arrow">
+                    <a href="#"><img src="img/svg/left-arrow.svg" alt="Left"></a>
+                </div>
+                <div class="slider__slide"><img src="img/knife.png" width="920px" alt="image"></div>
+                <div class="slider__right-arrow">
+                    <a href="#"><img src="img/svg/right-arrow.svg" alt="Right"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="perfection wow fadeInLeft" id="perfection">
+        <div class="container">
+            <div class="container__perfection">
+                <h2 class="montserrat animated" data-effect="pulse">
+                    PERFECTION
+                </h2>
+                <p class="crimsontext">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="perfection__flex">
+                <div class="desserts">
+                    <h2>
+                        DESSERTS
+                    </h2>
+                    <p class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="smoothies">
+                    <h2>
+                        SMOOTHIES
+                    </h2>
+                    <P class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </P>
+                </div>
+                <div class="breakfast">
+                    <h2>
+                        BREAKFAST
+                    </h2>
+                    <p class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="details wow fadeInRightBig" id="details">
+        <div class="other-offer animated" data-effect="pulse">
+            <h4>CHECK OTHER OFFERS</h4>
+        </div>
+        <div class="container__details">
+            <div class="details-box">
+                <div class="dishes">
+                    <h2>DETAILS</h2>
+                    <p class="crimsontext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <button class="dishes-btn" type="button" name="button">
+                        PREPARATION OF OUR DISHERS
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer wow fadeInDownBig" id="footer">
+        <div class="container">
+            <div class="container__progress">
+                <h2 class="montserrat animated" data-effect="pulse">
+                    HOW WE REACH THIS?
+                </h2>
+                <p class="crimsontext">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="progress__flex">
+                <div class="locations">
+                    <h2>
+                        DIFFRENT LOCATIONS
+                    </h2>
+                    <p class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="fresh">
+                    <h2>
+                        FRESH PRODUCTS
+                    </h2>
+                    <P class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </P>
+                </div>
+                <div class="best">
+                    <h2>
+                        THE BEST FROM THE BEGGINING
+                    </h2>
+                    <p class="crimsontext">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__container">
+            <div class="footer__logo animated" data-effect="pulse">
+                <a href="#"><img src="img/footer_logo.jpg" alt="footer_logo"></a>
+            </div>
+            <div class="footer__social montserrat">
+                <div class="name">
+                    Gratia Restaurant
+                </div>
+                <div class="icon">
+                    <div class="social facebook">
+                        <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                    <div class="social twitter">
+                        <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                    <div class="social instagram">
+                        <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/jQuery.scrollSpeed.js"></script>
+    <script>
+        function animate(elem) {
+            var effect = elem.data("effect");
+            if (!effect || elem.hasClass(effect)) return false;
+            elem.addClass(effect);
+            setTimeout(function() {
+                elem.removeClass(effect);
+            }, 1000);
+        }
+        $(".animated").mouseenter(function() {
+            animate($(this));
+        });
+    </script>
+
+    <script>
+        $(function() {
+            // Default
+            jQuery.scrollSpeed(100, 800);
+        });
+    </script>
+
+</body>
+
+</html>
