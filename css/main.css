@@ -698,7 +698,10 @@ form{
 
 
 }
-
+.book-form__menu:hover{
+    background: #151b28;
+    color: #d89b64;
+}
 .book-form__commet{
     margin-left:40px;
     width: 610px;
@@ -709,6 +712,9 @@ form{
   position: relative;
   display: inline-block;
   color: #151b28;
+}
+.select:hover{
+    color: #fff;
 }
 .select:after {
   content: "✚";
