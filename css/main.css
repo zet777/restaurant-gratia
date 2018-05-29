@@ -746,3 +746,36 @@ select {
     margin-top: 40px;
     height: 55px;
 }
+/* Meal.html */
+.container__meal{
+    width: 1400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 12px 12px 65px rgba(51, 51, 51, 0.45);
+            box-shadow: 12px 12px 65px rgba(51, 51, 51, 0.45);
+}
+.container__meal-img{
+    background: url(../img/ham.jpg)no-repeat left center;
+    height: 840px;
+    width: 50%;
+}
+
+.container__meal-description{
+    width: 50%;
+}
+
+.container__meal-name{
+    height: 368px;
+    border: 1px solid black;
+}
+.container__meal-components{
+    height:236px;
+    border: 1px solid black;
+}
+.container__meal-coast{
+    border: 1px solid black;
+    height: 226px;
+}
