@@ -55,6 +55,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin:0 10px 10px 0;
     padding:6px;
     color:#fff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
 }
 .github a:hover{background:#191919;color:#fff;}
 .youtube a:hover{background:#c4302b;color:#fff;}
@@ -644,6 +646,7 @@ h4 {
 -webkit-box-pack: center;
     -ms-flex-pack: center;
         justify-content: center;
+
 
 }
 
